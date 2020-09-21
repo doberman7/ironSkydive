@@ -1,64 +1,72 @@
+table,
+th,
+td {
+  text-align: center;
+}
 
-  table,
-  th,
-  td {
-    text-align: center;
-  }
 
-  h1 {
-    size: 9em;
-    align: center;
-    transform: uppercase
-  }
 
-  h2 {
-    size: 5em;
-    align: center;
-    transform: uppercase;
-    line-height: 4em
-  }
+h1 {
+  transform: uppercase;
+  size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  h3 {
-    size: 4.2em;
-    align: center;
-    line height: 1em
-  }
+ h2 {
+  size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
 
-  h4 {
-    size: 1.5em;
-    letter-spacing: 0.4px;
-    line height: 1em;
-  }
+h3 {
+  size: 4.2em;
+  align: center;
+  line height: 1em
+}
 
-  h5 {
-    size: 1.2em;
-    line height: 1em
-  }
+h4 {
+  size: 1.5em;
+  letter-spacing: 0.4px;
+  line height: 1em;
+}
 
-  .nav-bar {
-    background-color: rgba(25, 33, 41);
-  }
+h5 {
+  size: 1.2em;
+  line height: 1em
+}
 
-  .nav-bar a {
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    /* background-color: rgba(25, 33, 41); */
+.nav-bar {
+  background-color: rgba(25, 33, 41);
+}
 
-  }
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
 
-  .header{
-    background-image:
-      url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
-    position: 0 0;
-    repeat: no-repeat;
-    size: cover;
-  }
-  .white{
-    color: white;
-    text-shadow: #020819 8px -20px 9px;
+.header {
+  background-image:
+    url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  position: 0 0;
+  repeat: no-repeat;
+  size: cover;
+  height: 650px;
+}
 
-  }
-  /* Blue	67, 163, 230
+/* .whiteLetter {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+} */
+
+.quote {
+  size: .5em;
+}
+
+/* Blue	67, 163, 230
   Dark Blue	25, 33, 41
   Text	0, 0, 0 */
