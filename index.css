@@ -58,15 +58,18 @@ h5 {
   height: 650px;
 }
 
-/* .whiteLetter {
-  color: white;
-  text-shadow: #020819 8px -20px 9px;
-} */
+.dark-background {
+  background-color: rgba(25, 33, 41);
+  color: white
+}
 
 .quote {
   size: .5em;
 }
 
+#general-information{
+
+}
 /* Blue	67, 163, 230
-  Dark Blue	25, 33, 41
+  Dark Blue	rgba(25, 33, 41)
   Text	0, 0, 0 */
