@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
+/* Blue	67, 163, 230
+  Dark Blue	rgba(25, 33, 41)
+  Text	0, 0, 0 */
+
 html,
 body {
   margin: 0;
@@ -80,11 +84,15 @@ h5 {
 #general-information {}
 
 .text {
-  /* font-size: 2em; */
+  size: 2em;
   font-weight: 100;
   text-align: center;
 }
 
-/* Blue	67, 163, 230
-  Dark Blue	rgba(25, 33, 41)
-  Text	0, 0, 0 */
+.service-box {
+  size: 1.7em;
+  text-align: center;
+}
+.service-box img {
+  /*  styles to be added  */
+}
