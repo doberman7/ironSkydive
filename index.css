@@ -9,9 +9,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Condensed';
-  size: 10px;
-  line height: 3.5em;
-   weight: 300;
+  font-size: 10px;
+  line-height: 3.5em;
+  weight: 300;
 }
 
 table,
@@ -22,13 +22,13 @@ td {
 
 h1 {
   transform: uppercase;
-  size: 9em;
+  font-size: 9em;
   text-align: center;
   text-transform: uppercase;
 }
 
 h2 {
-  size: 5em;
+  font-size: 5em;
   text-align: center;
   text-transform: uppercase;
   line-height: 4em;
@@ -37,19 +37,19 @@ h2 {
 }
 
 h3 {
-  size: 4.2em;
+  font-size: 4.2em;
   text-align: center;
   line height: 1em
 }
 
 h4 {
-  size: 1.5em;
+  font-size: 1.5em;
   letter-spacing: 0.4px;
   line height: 1em;
 }
 
 h5 {
-  size: 1.2em;
+  font-size: 1.2em;
   line height: 1em
 }
 
@@ -68,7 +68,7 @@ h5 {
     url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
   position: 0 0;
   repeat: no-repeat;
-  size: cover;
+  font-size: cover;
   height: 650px;
 }
 
@@ -78,26 +78,36 @@ h5 {
 }
 
 .quote {
-  size: .5em;
+  font-size: .5em;
 }
 
 #general-information {}
 
 .text {
-  size: 2em;
+  font-size: 2em;
   font-weight: 100;
   text-align: center;
 }
 
 .service-box {
-  size: 1.7em;
+  font-size: 1.7em;
   text-align: center;
 }
 .service-box img {
   width: 125px;
 }
 
-.section-text{
+#team .section-text {
   font-size: 1.9em;
   text-align: center;
+}
+
+#team .member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
 }
