@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
-/* Blue	67, 163, 230
+/* Blue	rgba(67, 163, 230)
   Dark Blue	rgba(25, 33, 41)
   Text	0, 0, 0 */
 
@@ -62,6 +62,11 @@ h5 {
   text-decoration: none;
   font-size: 2em;
 }
+.nav-bar ul {
+
+  list-style: none;
+}
+
 
 .header {
   background-image:
@@ -110,4 +115,22 @@ h5 {
 #team img {
   width: 250px;
   height: 180px;
+}
+
+.dark-background{
+  font-style: normal;
+  font-size: 0.8;
+}
+
+.address{
+  font-style: normal;
+  font-size: 0.8em;
+}
+.footer a{
+  color: rgba(67, 163, 230);
+  text-decoration: none;
+}
+
+.footer ul{
+  list-style: none;
 }
