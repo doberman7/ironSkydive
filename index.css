@@ -142,5 +142,11 @@ h5 {
   margin: 0 auto;
   list-style-type: none;
   text-align: center;
-  list-style: none /*this dont wok here
+  list-style: none /*this dont wok here*/
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
 }
