@@ -58,17 +58,6 @@ h5 {
   padding: 14px;
 }
 
-.nav-bar a {
-  color: white;
-  text-decoration: none;
-  font-size: 2em;
-}
-/* .nav-bar ul {
-
-  list-style: none;
-} */
-
-
 .header {
   background-image:
     url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
@@ -136,10 +125,19 @@ h5 {
   list-style: none;
 }
 
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.nav-bar ul {
+  list-style: none;
+}
 .nav-bar-ul li {
   width: 1200px;
   margin: 0 auto;
   list-style-type: none;
   text-align: center;
-  list-style-type: none
+  /* list-style-type: none /*this dont wok here */
 }
