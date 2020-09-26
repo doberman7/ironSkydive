@@ -138,6 +138,11 @@ h5 {
 .address{
   font-style: normal;
   font-size: 0.8em;
+  margin-bottom: 30px; 
+}
+.footer{
+  padding: 40px 100px 40px 100px;
+  margin-bottom: 25px;
 }
 .footer a{
   color: rgba(67, 163, 230);
@@ -147,6 +152,8 @@ h5 {
 .footer ul{
   list-style: none;
 }
+
+
 
 .nav-bar a {
   color: white;
@@ -198,4 +205,5 @@ h5 {
   border-bottom-width: 1px;
   /* border-bottom-weight: 1px; WEIGTH ???? THIS WAS ON THE PAGE OF PRE-WORK*/
   padding: 5px 10px 5px 10px;
+  text-align: center;
 }
