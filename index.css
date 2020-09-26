@@ -106,8 +106,8 @@ h5 {
 #team .section-text {
   font-size: 1.9em;
   text-align: center;
-  padding: 75px 0;
-  margin: 0 auto;
+  /* padding: 75px 0;
+  margin: 0 auto; */
 }
 
 #team p {
@@ -115,6 +115,10 @@ h5 {
   margin: 10px auto;
 }
 
+#team hr {
+  margin: 20px auto 30px auto;
+  width: 40%;
+}
 
 #team .member-name {
   font-size: 1.5em;
@@ -182,4 +186,16 @@ h5 {
   text-align: center;
   text-decoration: none;
   /* padding: 10px 30px; */
+}
+
+.schedule-table{
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+}
+.schedule-table th,
+td {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  /* border-bottom-weight: 1px; WEIGTH ???? THIS WAS ON THE PAGE OF PRE-WORK*/
 }
