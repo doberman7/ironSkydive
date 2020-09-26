@@ -55,6 +55,7 @@ h5 {
 
 .nav-bar {
   background-color: rgba(25, 33, 41);
+  padding: 14px;
 }
 
 .nav-bar a {
@@ -62,10 +63,10 @@ h5 {
   text-decoration: none;
   font-size: 2em;
 }
-.nav-bar ul {
+/* .nav-bar ul {
 
   list-style: none;
-}
+} */
 
 
 .header {
@@ -133,4 +134,12 @@ h5 {
 
 .footer ul{
   list-style: none;
+}
+
+.nav-bar-ul li {
+  width: 1200px;
+  margin: 0 auto;
+  list-style-type: none;
+  text-align: center;
+  list-style-type: none
 }
