@@ -151,5 +151,15 @@ h5 {
   margin: 0 auto;
   padding: 75px 0;
   list-style: none
+}
 
+.link-btn {
+  background-color: rgb(67,163,230);
+  color: white;
+  /* font-family: "Roboto Condensed";
+  font-size: 2em;
+  letter-spacing: 0.5px;*/
+  text-align: center;
+  text-decoration: none;
+  /* padding: 10px 30px; */
 }
