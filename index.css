@@ -143,6 +143,10 @@ h5 {
 .footer{
   padding: 40px 100px 40px 100px;
   margin-bottom: 25px;
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: space-between;
+  align-items: center; */
 }
 .footer a{
   color: rgba(67, 163, 230);
@@ -154,8 +158,10 @@ h5 {
   padding: 0px;
 }
 
-
-
+.footer h5{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .nav-bar a {
   color: white;
   text-decoration: none;
