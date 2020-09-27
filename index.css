@@ -232,14 +232,22 @@ h5 {
   padding: 5px 10px 5px 10px;
   text-align: center;
 }
-#structure > div {
+
+#structure>div {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-#team > div{
+#team > div {
   display: flex;
   justify-content: space-evenly;
+}
+
+#team > div > article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
