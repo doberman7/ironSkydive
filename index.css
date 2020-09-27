@@ -232,3 +232,9 @@ h5 {
   padding: 5px 10px 5px 10px;
   text-align: center;
 }
+#structure > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
