@@ -169,7 +169,8 @@ h5 {
 }
 
 .nav-bar ul {
-  /* list-style: none; */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-bar {
