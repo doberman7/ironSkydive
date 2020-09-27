@@ -238,3 +238,8 @@ h5 {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+#team > div{
+  display: flex;
+  justify-content: space-evenly;
+}
