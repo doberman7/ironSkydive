@@ -3,7 +3,6 @@
 /* Blue	rgba(67, 163, 230)
   Dark Blue	rgba(25, 33, 41)
   Text	0, 0, 0 */
-
 html,
 body {
   margin: 0;
@@ -62,6 +61,7 @@ h5 {
   font-size: cover;
   height: 650px;
   padding-top: 50px;
+  position: relative;
 }
 
 .dark-background {
@@ -71,11 +71,21 @@ h5 {
 
 .quote {
   font-size: .5em;
+  position: absolute;
+  left: 10%;
+  bottom: 100px;
 }
 
 #general-information {
   display: flex;
   justify-content: space-evenly;
+}
+
+#general-information .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
 }
 
 .text {
@@ -95,10 +105,12 @@ h5 {
   border-radius: 20px;
   box-sizing: border-box;
   box-shadow: 2px 2px 10px 0 #eee;
-  margin: 50px 5%  0 5%; /* Margin: top, 50px; right: 5%; bottom: 0; left: 5%. */
+  margin: 50px 5% 0 5%;
+  /* Margin: top, 50px; right: 5%; bottom: 0; left: 5%. */
   padding: 20px;
   width: 40%;
 }
+
 .service-box img {
   width: 125px;
 }
@@ -130,17 +142,18 @@ h5 {
   height: 180px;
 }
 
-.dark-background{
+.dark-background {
   font-style: normal;
   font-size: 0.8;
 }
 
-.address{
+.address {
   font-style: normal;
   font-size: 0.8em;
   margin-bottom: 30px;
 }
-.footer{
+
+.footer {
   padding: 40px 100px 40px 100px;
   margin-bottom: 25px;
   text-align: center;
@@ -148,20 +161,22 @@ h5 {
   /* justify-content: space-between;
   align-items: center; */
 }
-.footer a{
+
+.footer a {
   color: rgba(67, 163, 230);
   text-decoration: none;
 }
 
-.footer ul{
+.footer ul {
   list-style: none;
   padding: 0px;
 }
 
-.footer h5{
+.footer h5 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .nav-bar a {
   color: white;
   text-decoration: none;
@@ -177,6 +192,7 @@ h5 {
   background-color: rgba(25, 33, 41);
   padding: 14px;
 }
+
 .nav-bar li {
   width: 1200px;
   margin: 0 auto;
@@ -185,7 +201,7 @@ h5 {
   list-style: none
 }
 
-.container{
+.container {
   width: 1200px;
   margin: 0 auto;
   padding: 75px 0;
@@ -193,7 +209,7 @@ h5 {
 }
 
 .link-btn {
-  background-color: rgb(67,163,230);
+  background-color: rgb(67, 163, 230);
   color: white;
   /* font-family: "Roboto Condensed";
   font-size: 2em;
@@ -203,11 +219,12 @@ h5 {
   /* padding: 10px 30px; */
 }
 
-.schedule-table{
+.schedule-table {
   margin: 0 auto 40px auto;
   font-size: 1.5em;
 }
-.schedule-table th,td {
+
+.schedule-table th, td {
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: 1px;
