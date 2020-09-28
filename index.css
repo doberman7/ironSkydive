@@ -275,3 +275,12 @@ slot-form-container{
   padding: 3px;
   width: 100%;
 }
+
+.slot-form-container  button{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  padding: 9px;
+  margin-top: 15px;
+}
