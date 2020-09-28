@@ -113,7 +113,7 @@ h5 {
   box-sizing: border-box;
   box-shadow: 2px 2px 10px 0 #eee;
   margin: 50px 5% 0 5%;
-  /* Margin: top, 50px; right: 5%; bottom: 0; left: 5%. */
+  margin, 50px 5% 0 5%;
   padding: 20px;
   width: 40%;
 }
@@ -161,7 +161,8 @@ h5 {
 }
 
 .footer {
-  padding: 40px 100px 40px 100px;
+  font-size: 1.9em;
+  padding: 40px 100px;
   margin-bottom: 25px;
   text-align: center;
   display: flex; */
@@ -197,7 +198,7 @@ h5 {
 
 .nav-bar {
   background-color: rgba(25, 33, 41);
-  padding: 14px;
+  padding: 14px 0;
 }
 
 .nav-bar li {
